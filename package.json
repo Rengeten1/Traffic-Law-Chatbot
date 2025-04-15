@@ -1,0 +1,13 @@
+{
+  "name": "traffic-law-chatbot",
+  "version": "1.0.0",
+  "description": "Implement a chatbot that simulates human conversation through texts. ### Functionalities required! #### Bot understands conversation conducted in Q&A fashion. - The bot should steer with aggresion  - The bot should understand the intents from an user's answer. - Soft fallback - if cant understand an user's utterance.     - ask to rephrase - Hard fallback - if cant understand an user's utterance repeatedly.     - restart #### Bot should remember the conversation history to accomplish certain tasks in context of topic - Place an order in a restaurant. - Compile a workout plan in a gym. #### Bot can continue conversation for 20 Q&A turns. #### It should not repear itself. #### UI should look modern & feel supporting responsive web design for many different devices. #### The UI should display Q&A in alternating list-like shape. ### Non-Functional Requirements! - Frontend implemented in HTML5 website. - Layout with CSS. - Using React Framework having atleast 4 React Component - Backend on Node.js and Express.js to serve the Application UI - Backend identifies the intent of a user based keyword-spotting. - Backend should be extensible for adding new topics/answers/intents does not require changing source code. ### Following rules must apply: - It is allowed to reuse existing layouts from bootsnip or onaircode. except chat layout by Pavel Komiagin. - It is allowed to reuse code examples from lecture, from ilearn except the chat layout by Pavel. _ It is not allowed to reuse code from any other sources. ####",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
