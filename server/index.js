@@ -17,6 +17,7 @@ app.get('*', (req, res) => {
 io.on('connection', (socket) => {
   console.log('User connected');
   socket.emit('botMessage', 'Welcome to the Traffic Law Chatbot! What do you want to know about German traffic laws?');
+
   socket.on('userMessage', (message) => {
     const response = handleMessage(message, socket.id);
     socket.emit('botMessage', response.message);
