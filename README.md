@@ -16,7 +16,7 @@ AI chatbot answering questions on German traffic laws using natural language.
 3. Run: `node server/index.js` (after building client: `cd client && npm run build`).
 
 ## Deployment
-- Azure App Services: `https://traffic-law-chatbot.azurewebsites.net`
+- Azure App Services: `traffic-law-chatbot-cxg0fwcwgzgnawdq.germanywestcentral-01.azurewebsites.net`
 - GitHub Actions for CI/CD.
 
 ## Tasks
