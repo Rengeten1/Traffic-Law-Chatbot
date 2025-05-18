@@ -524,7 +524,7 @@ const intents = [
   {
     name: 'who_are_you',
     keywords: ['who are you', 'what are you', 'tell me about yourself'],
-    response: 'I’m Grok, an AI created by xAI, here to provide helpful and truthful answers. Think of me as your friendly guide for driving rules and more!',
+    response: 'I’m a Traffic-Law-Chatbot, an Chatbot here to provide helpful and truthful answers. Think of me as your friendly guide for driving rules and more!',
     followUp: 'Want to know more about what I can do?'
   },
   {
