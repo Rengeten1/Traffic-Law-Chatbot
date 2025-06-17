@@ -19,7 +19,7 @@ const intents = [
   },
   {
     name: 'right_of_way',
-    keywords: ['right of way', 'priority', 'who goes first', 'roundabout rules'],
+   keywords: ['right of way', 'priority', 'who goes first', 'roundabout rules'],
     response: 'In Germany, right of way is determined by signs, road markings, or the "right before left" rule at unmarked intersections. For example, in a roundabout, vehicles already inside have priority.',
     followUp: 'Would you like details on a specific right-of-way situation?'
   },
