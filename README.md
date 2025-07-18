@@ -18,8 +18,3 @@ AI chatbot answering questions on German traffic laws using natural language.
 ## Deployment
 - Azure App Services: `traffic-law-chatbot-cxg0fwcwgzgnawdq.germanywestcentral-01.azurewebsites.net`
 - GitHub Actions for CI/CD.
-
-## Tasks
-- **Task 1**: Keyword-spotting chatbot.
-- **Task 2**: Azure deployment.
-- **Task 3**: LUIS integration (optional, in branch `task3-luis`).
