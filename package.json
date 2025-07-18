@@ -4,8 +4,7 @@
   "description": "AI chatbot for German traffic laws",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
